@@ -22,7 +22,7 @@ For trust relationship, it can either be an AWS service, or an user from another
   {
   	"Effect": "Allow",
   	"Principal": {
-  		"AWS": f"arn:aws:iam::{account_id}:user/{user_name}"
+  		"AWS": "arn:aws:iam::{account_id}:user/{user_name}"
   	},
   	"Action": "sts:AssumeRole"
   }
